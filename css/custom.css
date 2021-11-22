@@ -1,0 +1,38 @@
+/* Your custom css code goes here */
+.app-navbar .navbar-brand {
+  width: 260px;
+}
+.section-heading h1 {
+  text-transform: uppercase !important;
+}
+.navbar-brand > img {
+  width: 111px;
+  margin-top: -15px;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-brand > img {
+    width: 70px;
+    margin-top: -3px;
+  }
+}
+
+.notice__board {
+  color: red;
+  border: 1px solid red;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  -webkit-border-radius: 10p;
+  -moz-border-radius: 10p;
+  -ms-border-radius: 10p;
+  -o-border-radius: 10p;
+}
+
+.bg-color {
+  background-color: rgb(72, 72, 199);
+}
+.bg-color:hover {
+  color: #fff;
+}
