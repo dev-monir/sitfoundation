@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>sitfoundation.com</title>
+    <meta name="description" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700|Open+Sans"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles-merged.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+  </head>
+  <body>
+    <div class="app-search" id="app-search">
+      <a href="#" class="app-close js-app-close"><i class="icon-cross"></i></a>
+      <form action="#">
+        <input
+          type="search"
+          name="s"
+          id="search"
+          placeholder="Search a keyword and hit enter..."
+        />
+      </form>
+    </div>
+
+    <div class="app-page-wrapper">
+      <!-- Fixed navbar -->
+      <div class="app-header-top">
+        <div class="container">
+          <div class="row">
+            <!-- contact details -->
+            <div class="col-lg-9 col-md-9 col-sm-9 app-top-quick-contact-info">
+              <span>
+                <i class="icon-location2"></i>
+                Dhormopur, Gaibandha Sador, Gaibandha
+              </span>
+              <span>
+                <i class="icon-phone2"></i>
+                +880-17xxxxxxxx
+              </span>
+              <span>
+                <i class="icon-mail"></i>
+                symbol@gmail.com
+              </span>
+            </div>
+            <!-- social connectivity -->
+            <div class="col-lg-3 col-md-3 col-sm-3 app-top-social">
+              <ul>
+                <li>
+                  <a href="#"><i class="icon-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="icon-facebook2"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="icon-instagram2"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="icon-youtube"></i></a>
+                </li>
+                <li>
+                  <a href="#" class="app-search-icon js-app-search"
+                    ><i class="icon-search"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-default app-navbar">
+        <div class="container">
+          <div class="navbar-header">
+            <div class="btn-more js-btn-more visible-xs">
+              <a href="#"><i class="icon-dots-three-vertical"></i></a>
+            </div>
+            <button
+              type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#navbar-collapse"
+              aria-expanded="false"
+              aria-controls="navbar"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html" title="sitfoundation.com">
+              <img src="img/logo_sitfoundation.png" alt="" />
+            </a>
+          </div>
+
+          <div id="navbar-collapse" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="admission.html">Admission</a></li>
+              <li><a href="result.html">Result</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="app-section app-section-colored">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-left section-heading app-animate">
+              <h1 class="mb0">Result</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="app-section app-section-sm">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="row app-gutter0">
+                <div class="col-md-2" id="app-sidebar">
+                  <div class="app-sidebar-inner app-overlap app-animate">
+                    <ul class="app-side-menu">
+                      <li class="active"><a href="index.html">Result</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  class="col-md-9 col-md-push-1"
+                  id="app-content"
+                >
+                  <h2>Result</h2>
+                  <p>Notice Board</p>
+                  <div class="notice__board">
+                    <p>Result Will publish 26 November 2021</p>
+                    <p>Admission will start January 2022</p>
+                  </div>
+                  <br />
+                  <h4>Check Your result</h4>
+                  <br>
+                  <div id="displayResult">
+
+                  </div>
+                  <br>
+                  <div>
+                    <div style="padding-bottom: 10px;">
+                      <input
+                      id="inputRegistration"
+                      class="form-control"
+                      type="text"
+                      placeholder="Enter your registration Number"
+                    />
+                    </div>
+                    <div>
+                      <input type="text" id="inputRegistrationYear" class="form-control" placeholder="Enter passing year">
+                    </div>
+                    <br><br>
+                    <button id="resultBtnMain" class="btn bg-color" type="submit">
+                      Check Now
+                    </button>
+                    <br /><br />
+                  </div>
+                  <h4>download all the result below</h4>
+                  <button class="btn bg-color" type="submit">
+                    result download
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="app-cta">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="app-animate" data-animate-effect="fadeInRight">
+                Get your admission now!
+              </h2>
+              <a
+                href="/admission.html"
+                role="button"
+                class="btn btn-primary btn-lg btn-ghost app-animate"
+                data-animate-effect="fadeInLeft"
+                >Enroll</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="app-footer app-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="app-footer-widget">
+                <h3>About The School</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                  provident suscipit natus a cupiditate ab minus illum quaerat
+                  maxime inventore Ea consequatur consectetur hic provident
+                  dolor ab aliquam eveniet alias
+                </p>
+                <h3>Social</h3>
+                <ul class="app-footer-social">
+                  <li>
+                    <a href="#"><i class="icon-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="icon-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="icon-github"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="icon-dribbble"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="icon-linkedin"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="icon-youtube"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 col-md-push-1">
+              <div class="app-footer-widget">
+                <h3>Links</h3>
+                <ul>
+                  <li class="active"><a href="index.html">Home</a></li>
+                  <li><a href="admission.html">Admission</a></li>
+                  <li><a href="result.html">Result</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="app-footer-widget">
+                <h3>Contact Info</h3>
+                <ul class="app-contact-info">
+                  <li>
+                    <i class="icon-location2"></i>
+                    <span
+                      >198 West 21th Street, Suite 721 New York NY 10016</span
+                    >
+                  </li>
+                  <li><i class="icon-mail"></i><span>info@domain.com</span></li>
+                  <li><i class="icon-phone2"></i><span>+123 456 7890</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- END row -->
+        </div>
+
+        <div class="app-copyright">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 text-left">
+                <p>
+                  &copy; 2017
+                  <a href="https://procoder.com/">procoder:sitfoundation</a>.
+                  All Rights Reserved. Designed &amp; Developed with
+                  <i class="icon icon-heart"></i> by
+                  <a href="https://procoder.com/">procoder.com</a>
+                </p>
+              </div>
+              <div class="col-md-4 app-back-to-top">
+                <p>
+                  <a href="#" class="js-backtotop"
+                    >Back to top <i class="icon-arrow-long-up"></i
+                  ></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- END wrapper -->
+
+    <script src="js/scripts.min.js"></script>
+    <script src="js/main.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/result.js"></script>
+
+  </body>
+</html>
